@@ -17,9 +17,6 @@ export class CreateBusInput {
 
 @InputType()
 export class UpdateBusInput {
-  @Field()
-  id: string;
-
   @Field({ nullable: true })
   model?: string;
 
